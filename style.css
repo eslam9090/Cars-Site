@@ -1,0 +1,506 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo img {
+  width: 100%;
+  height: 20px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.navbar {
+  position: fixed;
+  background-color: black;
+  overflow: auto;
+  width: 100%;
+  padding: 20px 0px;
+  z-index: 4554;
+}
+.list {
+  float: right;
+  margin-right: 100px;
+}
+.list ul li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+.list ul li:hover {
+  color: #f36c21;
+}
+.logo {
+  float: left;
+  margin-left: 100px;
+}
+.main-sec {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overrelay {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.content {
+  min-width: 65%;
+  height: 100px;
+  text-align: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content h2 {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+.content p {
+  color: white;
+  font-size: 20px;
+  margin: 13px 0;
+  letter-spacing: 2px;
+}
+.btn {
+  padding: 10px 12px;
+  border-radius: 8px;
+  background-color: #f36c21;
+  margin-left: 10px;
+  border: none;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.btn-sty2 {
+  background-color: #fff;
+}
+.welcom-sec {
+  margin: 100px 0 50px 0;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.line {
+  display: inline-block;
+  width: 50px;
+  margin: auto;
+  height: 4px;
+  background-color: #f36c21;
+  margin-bottom: 50px;
+}
+.cards {
+  text-align: center;
+  overflow: hidden;
+  height: 300px;
+}
+.mar {
+  margin: 0 30px;
+}
+.card1 {
+  text-align: center;
+  width: 30%;
+  padding: 30px 15px;
+  border: 1px solid black;
+  text-transform: capitalize;
+  float: left;
+}
+.card1 i {
+  font-size: 30px;
+  color: #f36c21;
+}
+.card1 h3 {
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.card1 p {
+  padding-bottom: 10px;
+}
+.card1 a {
+  margin: 10px 0;
+  font-weight: bold;
+  /* text-decoration: none; */
+}
+.card1 a:hover {
+  color: #f36c21;
+}
+.ltr {
+  position: relative;
+}
+.ltr:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+.ltr:hover:after {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  z-index: -1;
+}
+.ltr:hover {
+  color: #fff;
+}
+.products-sec {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+.car {
+  width: 30%;
+  float: left;
+  position: relative;
+}
+.car img {
+  width: 100%;
+}
+.products-sec {
+  text-align: center;
+}
+.title2 {
+  color: white;
+  font-size: 30px;
+  padding: 50px 0 10px 0;
+}
+.overrelay-content {
+  background-color: #f158058c;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s;
+}
+.content2 h3 {
+  padding: 30px;
+}
+.content2 a {
+  color: black;
+  background-color: white;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.car:hover .overrelay-content {
+  visibility: visible;
+  opacity: 1;
+}
+.content2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content-left {
+  width: 40%;
+  float: left;
+  margin-right: 100px;
+  text-align: center;
+}
+.content-left h3 {
+  color: #f36c21;
+  font-size: 25px;
+  padding: 50px 0;
+}
+.content-left p {
+  text-align: left;
+  color: white;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.content-right {
+  width: 50%;
+  float: left;
+}
+.content-right img {
+  width: 100%;
+  margin: 100px 0;
+  height: 70%;
+  background-position: center;
+}
+.choos-us-sec {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.numbers-sec {
+  position: relative;
+  margin-top: 100px;
+  width: 100%;
+  height: 60vh;
+  background-image: url(./images/10.jpg);
+  background-attachment: fixed;
+  text-align: center;
+}
+.overrelay2 {
+  width: 100%;
+  height: 60vh;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.numbers {
+  float: left;
+  width: 20%;
+  margin-top: 13%;
+}
+.numbers h3 {
+  color: white;
+  padding: 15px 0;
+  font-size: 22px;
+}
+.numbers span {
+  color: white;
+}
+
+.numbers i {
+  font-size: 30px;
+  color: #f36c21;
+}
+
+.parent {
+  margin-top: 80px;
+  text-align: center;
+  overflow: hidden;
+}
+.card {
+  float: left;
+  width: 30%;
+  padding: 30px 15px;
+  border: 3px solid #f36c21;
+  text-align: center;
+  background-color: white;
+  color: black;
+  position: relative;
+}
+.card::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  transition: 0.5s;
+  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.795);
+}
+.card:hover {
+  color: #f36c21;
+}
+.card:hover:after {
+  height: 100%;
+}
+.card h3 {
+  padding: 10px 0;
+}
+.card p {
+  padding: 10px 0;
+}
+.btn {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 5px;
+  width: 150px;
+  color: white;
+}
+.circle {
+  text-align: center;
+  width: 100px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid white;
+  margin: auto;
+}
+.circle span {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+}
+.circle .spn_2 {
+  font-size: 20px;
+}
+.Employee-sec {
+  position: relative;
+  margin-top: 100px;
+  width: 100%;
+  height: 60vh;
+  background-image: url(./images/11.jpg);
+  background-attachment: fixed;
+  text-align: center;
+  overflow: hidden;
+}
+
+.info img {
+  position: absolute;
+  top: 62px;
+  left: 170px;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.info p {
+  color: white;
+  padding-top: 80px;
+  font-weight: bold;
+}
+.info span {
+  color: #f36c21;
+  padding-left: 30px;
+  text-align: left;
+}
+.info {
+  position: relative;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+.employee1 p {
+  text-transform: capitalize;
+  line-height: 1.5;
+  margin-left: 76px;
+  font-size: 14px;
+  color: white;
+}
+
+.employee1 {
+  float: left;
+  width: 50%;
+  color: #fff;
+  padding-right: 20px;
+  padding-top: 55px;
+  margin-bottom: 110px;
+}
+.Team-sec {
+  margin-top: 100px;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+.content3 ul li {
+  text-align: left;
+  list-style: none;
+}
+.content3 h3 {
+  color: white;
+}
+.content3 ul li a {
+  cursor: pointer;
+}
+.content3 ul li i {
+  font-size: 25px;
+}
+.content3 ul li i:hover {
+  color: white;
+}
+.content3 {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+.card3 {
+  float: left;
+  width: 30%;
+  border: 3px solid #f36c21;
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding-bottom: 20px;
+  position: relative;
+}
+.card3 img {
+  width: 100%;
+  height: 250px;
+}
+.card3 i {
+  font-size: 10px;
+  margin-right: 9px;
+}
+
+.card3 > p {
+  padding: 9px 0;
+  font-weight: bold;
+}
+.card3::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  transition: 0.5s;
+  opacity: 0.5;
+  background-color: rgba(0, 0, 0, 0.795);
+}
+.card3:hover {
+  color: #f36c21;
+}
+.card3:hover:after {
+  height: 100%;
+}
+.card3 a {
+  text-align: left;
+  font-size: 17px;
+  cursor: pointer;
+  color: black;
+}
+.card3 a:hover {
+  color: #f36c21;
+}
+.footer-sec {
+  background-color: black;
+  height: 50vh;
+  width: 100%;
+  margin-top: 100px;
+  position: relative;
+}
+.footer-sec p {
+  text-align: center;
+  color: white;
+}
+.footer-logo {
+  text-align: center;
+}
+.footer-logo img {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+.footer-lists {
+  margin: 30px 0;
+  text-align: center;
+}
+.footer-lists ul li {
+  list-style: none;
+  display: inline;
+  padding-left: 20px;
+}
+.footer-lists ul li i {
+  font-size: 25px;
+  color: white;
+}
