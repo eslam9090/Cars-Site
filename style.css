@@ -445,6 +445,7 @@
 .card3 > p {
   padding: 9px 0;
   font-weight: bold;
+  font-size: 13px;
 }
 .card3::after {
   position: absolute;
